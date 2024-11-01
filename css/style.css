@@ -1,0 +1,243 @@
+.short-links-form input[type="text"],
+.short-links-form input[type="url"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.green-button-link {
+  background-color: #00ce6a;
+
+}
+.short-links-form button {
+    padding: 10px 20px;
+    background-color: #00ce6a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.short-links-list {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.short-links-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.short-links-list th,
+.short-links-list td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.short-links-list th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.short-links-actions a.button {
+    color: #00ce6a !important;
+    margin-right: 10px;
+}
+
+.addNewCampaign{
+  width:fit-content;
+  padding:5px 15px !important;
+}
+
+.copy-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left:10px;
+}
+
+.copy-button button, .green-links-wrap button.green-button{
+    padding: 10px;
+    background-color: #00ce6a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.statsButton{
+  padding: 2px 15px !important;
+  line-height: 3;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px !important;
+  filter: blur(4px);
+}
+
+.short-links-stats {
+    background-color: #00ce6a;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.short-links-stats .stat {
+    text-align: center;
+}
+
+.short-links-stats .stat .value {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.short-links-stats .stat .label {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.mobileShow{
+  display: none;
+}
+
+@media screen and (max-width: 667px){
+  .short-links-stats{
+    display: block;
+  }
+  .short-links-stats .stat{
+    display: flex;
+  }
+  .short-links-stats .stat .value{
+    margin-right: 10px;
+    text-align: center;
+    width: 28px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .linkBox{
+    border: #ccc solid 1px;
+    padding: 10px;
+    background: #fff;
+    margin-bottom:15px;
+  }
+  .campaign-name{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  .mobileShow{
+    display: block;
+  }
+  .desktopShow{
+    display: none;
+  }
+  a.d-flex{
+    margin:0;
+  }
+  
+}
+
+.short-links-stats .stat .value:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.modal{
+  z-index: 1000000;
+}
+.modal.show .modal-dialog{
+  max-width: 95%;
+}
+#top_devices, #top_platforms, #top_countries, #monthly_visits{
+  height:444px;
+}
+#monthly_visits{
+  height:403px;
+}
+.card-title {
+  font-size: 22px;
+  margin: 0;
+  padding: 5px 0;
+}
+.statsButton{
+  max-width:95px;
+}
+#statsModal span{
+  text-decoration: none;
+}
+.linktext{
+  max-width:400px;
+  display:block;
+  word-wrap: break-word;
+}
+a.d-flex{
+  padding: 5px 10px !important;
+    margin: 0 5px 0 0px;
+}
+.short-links-list .dashicons.dashicons-clipboard{
+  margin-right:5px;
+}
+
+.green-links-wrap img{
+  max-width:100%;
+}
+
+.green-links-wrap{
+  max-width: 1200px;
+  margin: 10px auto;
+}
+
+.product-item-icon, .other-products-section i {
+  color: #00ce6a;
+}
+
+.other-products-section li{
+  display: flex;
+  align-items: center;
+}
+
+.green-links-wrap-modal .card-header {
+  background: #00ce6a !important;
+  color: #fff;
+}
+.upgrade{
+  position:relative
+}
+.upgrade:hover > .upgradetopro, .short-links-stats:hover > .upgradetopro{
+  display: block;
+}
+.short-links-stats .stat.bl .value{
+  filter: blur(4px);
+}
+.short-links-stats{
+  position: relative;
+}
+.upgradetopro{
+  background: #c00;
+  padding: 14px 0;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  color: #fff;
+  position: absolute;
+  display: none;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  max-width: 300px;
+  z-index: 1;
+  margin: 0 auto;
+}
+.upgradetopro a{
+  color:#fff;
+  text-decoration: none;
+}
